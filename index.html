@@ -1,0 +1,344 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./assets/styles.css" rel="stylesheet" >
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+  <!--Header Starts-->
+    <!--Navbar Starts-->
+    <nav class="flex justify-between md:justify-center items-center md:w-[90%] mx-12 md:mx-auto bg-white gap-5 md:bg-transparent py-6">
+        <div>
+            <img src="./assets/tehzeeb_bakers_logo.png" class="w-24">
+         </div>
+         <div id="nav-links" class="md:static absolute bg-white md:bg-transparent md:min-h-fit h-20 left-0 z-10 top-[-100%] md:w-auto w-52  items-left md:items-center flex flex-col md:flex-row ">
+            <ul class="flex md:flex-row flex-col items-left md:items-center py-4 gap-8 md:gap-1 uppercase font-semibold bg-white">
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5 ">Cakes</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Buscuit</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Pastry</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Bread</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Pizza</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Donut</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Snacks</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Salad</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Puff</a>
+                </li>
+
+                <li>
+                    <a href="#" class="hover:text-gray-700 px-5">Delivery</a>
+                </li>
+
+            </ul>
+        </div>
+            <div class="flex items-center gap-6">
+            <a href="Cart using Tailwindcs.html" class="hover:text-gray-700"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+            <button name="menu" onclick="onToggleMenu(this)" class="text-lg cursor-pointer md:hidden"><svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button></div>
+         
+    </nav>
+    <!--Navbar Ends-->
+
+  <!--Header Ends-->
+  <!--Hero Starts-->
+  <div class=" h-[700px] w-full text-white relative " style="background-image: url('./assets/christmas-sweets-platter_114579-20423.avif'); background-repeat: no-repeat; background-size: cover; background-position: 60% 50%;">
+    <div class="hero bg-black opacity-50 h-[700px] w-full">
+    </div>
+    <div class="absolute top-44 sm:top-72 text-left    text-center w-full">
+        <h1 class="text-5xl sm: font-bold  my-auto">Tehzeeb Sweets and Bakers</h1>
+        <h3 class=" text-4xl sm:text-6xl hero-heading my-4">Love at first sight</h3>
+        <button class="px-5 py-4  rounded text-2xl my-4 support-btnn relative">
+            Shop Now!
+        </button>
+    </div>
+    <div class="custom-shape-divider-bottom-1693655486">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+  </div>
+  <!--Hero Ends-->
+  <!--Biscuits Starts-->
+  <div class=" mx-10 sm:mx-24 md:mx-44  my-12 sm:my-24 text-center">
+    <h1 class="uppercase text-5xl sm:text-7xl font-bold  text-transparent bg-gradient-to-r from-orange-200 to-orange-800  bg-clip-text">Royal biscuit collection</h1>
+    <h3 class="text-5xl hero-heading my-4 capitalize">want to feel like a royality</h3>
+    <button class="px-5 py-4  rounded text-xl my-4 support-btn relative">Explore More</button>
+
+    <div class=" hidden md:grid md:grid-cols-2 gap-44 my-24">
+
+    
+    <div class="flex items-center  relative">
+        <img src="./assets/Oatmeal raisin and chocolate Cookie.png" class="absolute z-10 w-[180px] ">
+        <h2 class="text-lg bg-[#f1a180] px-8 py-4 rounded-xl relative left-[150px] uppercase"> chocolate WALNUT</h2>
+    </div>
+    <div class="flex items-center  relative">
+        <img src="./assets/paraline_biscuit-1-2.png" class="absolute z-10 w-[180px]">
+        <h2 class="text-lg bg-[#f1a180]  px-8 py-4 rounded-xl relative left-[150px] uppercase"> Jam Biscuit</h2>
+    </div>
+
+    <div class="flex items-center  relative -left-16">
+        <img src="./assets/pista biscuit.png" class="absolute z-10 w-[280px] ">
+        <h2 class="text-lg bg-[#f1a180] px-8 py-4  rounded-xl relative left-[200px] uppercase"> pista khatai</h2>
+    </div>
+    <div class="flex items-center  relative">
+        <img src="./assets/walnut_biscuit-1.png" class="absolute z-10 w-[180px]">
+        <h2 class="text-lg bg-[#f1a180] px-8 py-4  rounded-xl relative left-[150px] uppercase"> almond ladoo</h2>
+    </div>
+
+    <div class="flex items-center  relative">
+        <img src="./assets/zeera2 (1).png" class="absolute z-10 w-[160px]">
+        <h2 class="text-lg bg-[#f1a180] px-8 py-4  rounded-xl relative left-[140px] uppercase"> Zeera</h2>
+    </div>
+    <div class="flex items-center  relative">
+        <img src="./assets/pista_biscuit-3.png" class="absolute z-10 w-[180px]">
+        <h2 class="text-lg bg-[#f1a180]  px-8 py-4 rounded-xl relative left-[150px] uppercase"> Jam Biscuit</h2>
+    </div>
+</div>
+
+<section class="gallery-sm-section block md:hidden mx-10 md:mx-32 pt-12">
+   
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative  overflow-hidden rounded-lg h-96">
+             <!-- Item 1 -->
+            <div class="hidden md:w-[80%] mx-auto my-20 duration-700 ease-in-out" data-carousel-item>
+                <div class="flex flex-col items-center gap-4 relative">
+                    <img src="./assets/Oatmeal raisin and chocolate Cookie.png" class="z-10 w-[180px] ">
+        <h2 class="text-lg bg-[#f1a180] px-8 py-4 rounded-xl uppercase"> chocolate WALNUT</h2>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden  md:w-[80%] mx-auto my-20 duration-700 ease-in-out" data-carousel-item>
+                <div class="flex flex-col items-center gap-4 relative">
+                    <img src="./assets/paraline_biscuit-1-2.png" class="z-10 w-[180px]">
+        <h2 class="text-lg bg-[#f1a180]  px-8 py-4 rounded-xl  uppercase"> Jam Biscuit</h2>
+                </div>            </div>
+            <!-- Item 3 -->
+            <div class="hidden  md:w-[80%] mx-auto my-20 duration-700 ease-in-out" data-carousel-item>
+                <div class="flex flex-col items-center gap-4 relative">
+                    <img src="./assets/pista biscuit.png" class=" z-10 w-[280px] ">
+                    <h2 class="text-lg bg-[#f1a180] px-8 py-4  rounded-xl uppercase"> pista khatai</h2>
+                </div>               
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden  md:w-[80%] mx-auto my-20 duration-700 ease-in-out" data-carousel-item>
+                <div class="flex flex-col items-center gap-4 relative">
+                    <img src="./assets/walnut_biscuit-1.png" class=" z-10 w-[180px]">
+                    <h2 class="text-lg bg-[#f1a180] px-8 py-4  rounded-xl  uppercase"> almond ladoo</h2>
+                </div>               
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden  md:w-[80%] mx-auto my-20 duration-700 ease-in-out" data-carousel-item>
+                <div class="flex flex-col items-center gap-4 relative">
+                    <img src="./assets/zeera2 (1).png" class="z-10 w-[160px]">
+                    <h2 class="text-lg bg-[#f1a180] px-8 py-4  rounded-xl  uppercase"> Zeera</h2>
+                </div>
+
+            </div>
+             <!-- Item 6 -->
+            <div class="hidden  md:w-[80%] mx-auto my-20 duration-700 ease-in-out" data-carousel-item>
+                <div class="flex flex-col items-center gap-4  relative">
+                    <img src="./assets/pista_biscuit-3.png" class=" z-10 w-[180px]">
+                    <h2 class="text-lg bg-[#f1a180]  px-8 py-4 rounded-xl  uppercase"> Jam Biscuit</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <!-- <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button> -->
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 left-0 lg:left-44  z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4  dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="absolute top-0 right-0 lg:right-44 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4  dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+    
+</section>
+  </div>
+  <!--Biscuits Ends-->
+ <!--History Starts-->
+ <div class="history-section flex flex-col text-center text-white justify-center gap-16 py-12 sm:py-24 items-center bg-[#e8cba9]">
+    <div>
+        <h1 class="text-3xl">CLassical Baking</h1>
+        <h1 class="uppercase text-5xl sm:text-7xl font-bold  text-transparent bg-gradient-to-r from-orange-400 to-orange-800  bg-clip-text">Tradition</h1>
+        <h3 class="text-2xl hero-heading mt-3 capitalize">Legacy of 100 Years</h3>
+    </div>
+  
+    <div class="w-2/3 ">
+
+        <h3 class="text-xl text-white text-center"> 
+             Tehzeeb is a culture, tradition, lifestyle, and class of twin cities in Pakistan, with a legacy of more than 100 
+             years. The bakery is exceedingly popular among society’s elites including Presidents, Prime Ministers, Ambassadors even 
+             Royal Prince, Kings, Queens, and their families visiting Pakistan from all around the world. We believe in sharing love,
+             happiness, and making this world a better place.
+        </h3>
+    </div>
+    <img src="./assets/time_greet_new_img-1-1-1.png" alt="" class="w-2/3 sm:w-auto">
+
+ </div>
+
+
+
+
+  
+   <!--Pastry Starts-->
+   <div class="pastry-section grid md:grid-cols-2 md:gap-28 gap-4 items-center  py-12 sm:py-24 px-10 md:px-32 ">
+    <div class="img w-2/3 sm: w-3/4 mx-auto">
+        <img src="./assets/brownie.png" >
+    </div>
+    <div class="text-center">
+        <h1 class="uppercase text-5xl sm:text-7xl font-bold  text-transparent bg-gradient-to-r from-orange-600 to-orange-900  bg-clip-text">CHOCOLATE CHERRY
+            PASTRY</h1>
+        <h3 class="text-5xl hero-heading my-4 capitalize">Artisan style pastry</h3>
+        <button class="px-5 py-4  rounded text-2xl my-4 support-btn relative">Explore More</button>
+        
+    </div>
+   
+  </div>
+  <!--Pastry Ends-->
+  <!--Donuts Starts-->
+  <div class="donut-section grid md:grid-cols-2 md:gap-28 gap-12 items-center  py-12 sm:py-24 px-10 md:px-32 bg-[#eabbb4]">
+    <div class="imgw-2/3 sm: w-3/4  mx-auto">
+        <img src="./assets/Choco Donut.png" class="sm:w-2/3 mx-auto">
+    </div>
+    <div class="text-center">
+        <h1 class="uppercase  text-5xl sm:text-7xl font-bold  text-transparent bg-gradient-to-r from-pink-500 to-blue-400 bg-clip-text">Donuts</h1>
+        <h3 class="text-5xl hero-heading my-4 capitalize">chocolate. Vanilla. Strawberry</h3>
+        <button class="px-5 py-4  rounded text-2xl my-4 support-btn relative">Explore More</button>
+        
+    </div>
+  </div>
+  <!--Donuts Ends-->
+
+   <!--Breads Starts-->
+   <div class="donut-section grid md:grid-cols-2 md:gap-28 gap-4 items-center  py-12 sm:py-24 px-10 md:px-32 ">
+   
+    <div class="text-center">
+        <h1 class="uppercase  text-5xl sm:text-7xl font-bold  text-transparent bg-gradient-to-r from-orange-600 to-orange-900  bg-clip-text">Breads</h1>
+        <h3 class="text-5xl hero-heading my-4 capitalize">classical baking tradition</h3>
+        <button class="px-5 py-4  rounded text-2xl my-4 support-btn relative">Explore More</button>
+        
+    </div>
+    <div class="img w-2/3 sm: w-3/4  mx-auto">
+        <img src="./assets/bread.png" class="sm:w-2/3 mx-auto" >
+    </div>
+  </div>
+  <!--Breads Ends-->
+
+
+  <!--Footer Starts-->
+  <footer class="text-white " style="background-image: url('./assets/various-cakes-supermarket-shelves-sale_627829-7332.avif'); background-repeat: no-repeat; background-size: cover; background-position: 60% 50%;">
+    <div class="footer-section flex flex-col text-center md:text-left md:flex-row justify-around items-center gap-12  sm:px-32 px-10 py-12 sm:py-24   z-1 bg-black   opacity-80 ">
+        <div class=" sm:w-3/4 md:ml-4">
+            <img src="./assets/tehzeeb_bakers_logo.png" class="w-24 mx-auto">
+            <h3 class="font-bold text-white mt-2 text-xl mb-3">About Tehzeeb Bakers</h3>
+            <p class="text-white">Supporting people to have a better and quality lifestyle that can enable them in achieving their goals.</p>
+        </div>
+        <div class=" sm:w-3/4 text-white">
+            <h3 class="font-bold text-2xl relative mb-3">Services</h3>
+            <ul>
+                <li><a>My anniversary</a></li>
+                <li><a>My Birthday</a></li>
+                <li ><a>My order</a></li>
+                
+            </ul>
+        </div>
+      
+        <div class="sm:w-3/4 text-white">
+            <h3 class="font-bold text-2xl mb-3 relative">Company</h3>
+            <ul>
+                <li >Support</li>
+                <li >Contact Us</li>
+                <li >Write to us</li>
+                <li >Write to us</li>
+             
+            </ul>
+        </div>
+        <div class="sm:w-3/4 text-white">
+            <h3 class="font-bold text-2xl mb-3 relative">Categories</h3>
+            <ul>
+                <li >Cakes</li>
+                <li >Biscuit</li>
+                <li >Bread</li>
+                <li >Salad</li>
+                <li >Puff</li>
+                <li >Snacks</li>
+                <li >Donut</li>
+
+
+             
+            </ul>
+        </div>
+        <div class="map  sm:mr-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.473920608098!2d144.74311491584638!3d-37.87259814518631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad688543e294859%3A0xc2434a29ab3f0933!2sMegaWorkspace!5e0!3m2!1sen!2s!4v1679878295632!5m2!1sen!2s" width="250" height="250" style="border: 0px; pointer-events: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+    <div class="bg-black opacity-80 text-white flex flex-col gap-4 md:flex-row justify-center md:justify-between px-10 md:px-32  border-t border-gray-400 py-4 ">
+        <p class="text-center">Copyright ©2023 Tehzeeb Bakers. All Rights Reserved | by United Sol</p>
+        <div class="flex gap-4 justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="bg-white border-2 rounded-full p-2 w-9 h-9" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="bg-white border-2 rounded-full p-2 w-9 h-9" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="bg-white border-2 rounded-full p-2 w-9 h-9" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="bg-white border-2 rounded-full p-2 w-9 h-9" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"/></svg>
+        </div>
+
+    </div>
+</footer>
+  <!--Footer Ends-->
+<script>
+    var Links = document.getElementById('nav-links');
+function onToggleMenu(e){
+    
+    e.name = e.name === 'menu' ? 'close' : 'menu';
+    Links.classList.toggle('top-[14%]');
+
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+</html>
